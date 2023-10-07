@@ -15,7 +15,7 @@
             <div class="contenedor">
                 <img src="img/logo.png" alt="Logo" class="logotipo"/>
                 <ul class="textoBoton" >
-                    <li><a href="index.php">Inicio</a></li>
+                <li><a href="index.php">Inicio</a></li>
                     <li><a href="quien.php">Quien soy</a></li>
                     <li><a href="Administracion/portafolio.php">PortaFolio</a></li>
                     <li><a href="Administracion/pedidos.php">Pedidos</a></li>
@@ -26,31 +26,17 @@
         </nav> 
        <div id="mostrarSlider">
         <div class="Slider-banner">
-            <h1>Rigoberto Pérez Ovando</h1> 
-            <p class="large">Ingeniero de software</p>
+            <h1>¿Quién soy?</h1> 
+            <p class="large">Rigoberto Pérez Ovando</p>
         </div>
        </div>
    </header>
   
    <section id="Portafolio">
-       <div class="Contenedor">
-           <div class="portafolio-nav">
-               <ul class="textoBoton">
-                    <li><a href="">Web</a></li>
-                    <li><a href="">Móvil</a></li>
-                    <li><a href="">Escritorio</a></li>
-               </ul>
-           </div>
-       </div>
-       <div class="Portafolio-content">
-            <div class="Caja">
-                <a href="http://">
-                    <img src="img/web.png" alt="web">
-                    <p>Sitio punto de venta</p>
-                </a>               
-            </div>
-           
-       </div>
+       <p>
+       Programación y desarrollo de software es un campo que evoluciona constantemente debido a las exigencias de los usuarios y de la tecnología misma, porque lo que siempre buscamos estar al margen de la innovación y el cambio
+       </p>
+       
    </section>
   
   <footer>
