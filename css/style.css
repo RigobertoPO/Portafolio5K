@@ -39,6 +39,14 @@ body{
 #navbar ul li a:hover{
     background-color: aqua;
 }
+#navbar ul li .sesion{
+    padding: 20px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
 .textoBoton{
     font-size: 1em;
     text-transform: uppercase;
