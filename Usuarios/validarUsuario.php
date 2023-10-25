@@ -4,7 +4,7 @@
     if(isset($correo)&& isset($password)){
         require_once '../Core/Admin_usuario.php';
         $usuario=new Usuario();
-        $resultado=$usuario->AutentificarUsuario($correo,$password);
+        $resultado=$usuario->AutentificarUsuario($correo,MD5($password));
         if(count($resultado)>0){
             foreach ($resultado as $item) {
                 session_start();

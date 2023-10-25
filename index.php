@@ -32,6 +32,7 @@
                         if($tipoUsuario==1){
                            echo '<li><a href="Administracion/portafolio.php">PortaFolio</a></li>';
                            echo '<li><a href="Administracion/pedidos.php">Pedidos</a></li>';
+                           echo '<li><a href="Usuarios/administrarusuarios.php">Usuarios</a></li>';
                         }                
                     ?>
                     <li><a href="blog.php">blog</a></li>
