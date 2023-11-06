@@ -53,11 +53,16 @@
    </header>
   <a href="nuevousuario.php">Nuevo</a>
    <section id="Portafolio">
-    <table>
+    <table class="table table-light">
         <thead>
-            <th>Nombre</th>
-            <th>Correo</th>
-
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Correo</th>
+                <th>Tipo</th>
+                <th></th>
+                <th></th>
+            </tr>
         </thead>
        <?php
             include_once '../Core/Admin_usuario.php';
@@ -65,8 +70,12 @@
             $resultado=$usuario->ObtenerUsuario();
             foreach ($resultado as $registro) {
                 echo '<tr>';
+                echo '<td>'. $registro['Id']. '<td>';
                 echo '<td>'. $registro['NombreCompleto']. '<td>';
                 echo '<td>'. $registro['CorreoElectronico']. '<td>';
+                echo '<td>'. $registro['Tipo']. '<td>';
+                echo '<td><img src="../img/Eliminar.png" /></td>';
+                echo '<td><img src="../img/Editar.png" /></td>';
                 echo '</tr>';
             }
        ?>
